@@ -1,0 +1,88 @@
+body {
+  background-color: #FDF2F2;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face { font-family: babydoll; src: url('babydoll-font/babydoll.ttf'); }
+@font-face { font-family: babydoll; font-weight: bold; src: url('babydoll-font/more-babydoll.ttf');}
+
+.site-header {
+  height: 45px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgb(37, 37, 37);
+}
+
+.header-menu {
+  overflow: hidden;
+  height: 45px;
+  text-align: center;
+  display: block;
+}
+
+.header-menu a {
+  font-size: 40px;
+  font-family: babydoll;
+  color: darkgrey;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-menu a:hover {
+  background-color: #FDF2F2;
+  color: black;
+}
+
+.site-content {
+  min-height: calc(100vh - 195px); /* Sets minimum height to 100% height of the viewport then subtract footer height so it always appears if there is room */
+  padding-top: 30px; /* Offsets the header to prevent content being covered */
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.container {
+  padding: 45px 30px 45px 30px;
+  font-size: 0;
+}
+
+.central-image-outer {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+}
+
+.central-image-inner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+}
+
+.jessie-image {
+  background-image: url('images/jessie-image-grouped.png');
+  width: 450px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.jessie-image:hover {
+  background-image: url(images/jessie-image-hover.png);
+  transition: 0.75s ease;
+}
+
+.site-footer {
+  height: 80px;
+  background-color: rgb(37, 37, 37);
+}
