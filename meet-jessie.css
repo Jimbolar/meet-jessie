@@ -5,7 +5,7 @@ body {
 }
 
 .site-header {
-  height: 45px;
+  height: 40px;
   left: 0;
   position: fixed;
   right: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 .header-menu a {
-  font-size: 40px;
+  font-size: 22px;
   font-family: The Girl Next Door;
   color: darkgrey;
   padding: 10px 10px 10px 10px;
