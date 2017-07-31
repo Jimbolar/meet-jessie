@@ -4,9 +4,6 @@ body {
   margin: 0;
 }
 
-@font-face { font-family: babydoll; src: url('babydoll-font/babydoll.ttf'); }
-@font-face { font-family: babydoll; font-weight: bold; src: url('babydoll-font/more-babydoll.ttf');}
-
 .site-header {
   height: 45px;
   left: 0;
@@ -25,7 +22,7 @@ body {
 
 .header-menu a {
   font-size: 40px;
-  font-family: babydoll;
+  font-family: The Girl Next Door;
   color: darkgrey;
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
